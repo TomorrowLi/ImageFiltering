@@ -1,0 +1,44 @@
+/*输入框自定义样式*/
+.bdcs-container .bdcs-search-form-input {
+    vertical-align: top;
+    text-indent: 10px;
+    float: left;
+    border-color:#a6a6a6;
+    margin-right:0;
+    width:370px;
+    height:50px;
+    line-height:50px;
+    font-family:Arial,SimSun,sans-serif;
+    color:#000000;
+    font-size:14px;
+    background-color:#FFFFFF;
+    border:none;
+    border-radius: 5px 0  0 5px;
+}
+/*按钮样式自定义*/
+.bdcs-container .bdcs-search-form-submit {
+    display: inline-block;
+    cursor: pointer;
+    border:none;
+    vertical-align: top;
+    text-align: center;
+    width: 89px;
+    height:50px;
+    padding-left:30px;
+    background:url(../images/searchIco.png) no-repeat 15px center #06c;
+    color:#fff;
+    font-family:Arial,SimSun,sans-serif;
+    font-size:16px;
+
+    *margin-top:1px;
+    line-height:26px;
+    border-radius: 0 5px 5px 0;
+}
+.bdcs-container .bdcs-main, .bdcs-container .bdcs-main *{
+    overflow: visible;
+}
+.bdcs-container .bdcs-search-form-input:focus{border:none;}
+#bdcs-search-form-input-label {top:0!important}
+
+#bdcs-hot {background:url(../images/hotsearch.png) no-repeat left center;   font-size:12px; padding-left:60px;}
+#bdcs-hot a {font-size:12px; color:#99cc00; font-weight: bold;}

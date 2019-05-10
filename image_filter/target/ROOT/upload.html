@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="angularjs/angular.min.js">  </script>
+    <script type="text/javascript" src="js/baseController.js">  </script>
+    <script type="text/javascript" src="js/services/uploadService.js">  </script>
+    <script type="text/javascript" src="js/controller/imagesController.js">  </script>
+</head>
+<body ng-app="image" ng-controller="imagesController">
+<tr>
+    <td>
+        <table>
+            <tr>
+                <td>
+                    <input type="file" id="file" />
+                    <button ng-click="fileUpload()" class="btn btn-primary" type="button" >
+                        上传
+                    </button>
+                </td>
+                <td>
+                    <img  src="{{image_entity.url}}" width="200px" height="200px">
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+</body>
+</html>

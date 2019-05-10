@@ -1,0 +1,116 @@
+function index_Top(){
+
+}
+function list_page_top(){
+}
+function index_Page(){
+
+}
+function index_Bottom(){
+
+}
+function list_Top(){
+	//index_Top();
+}
+function list_Page(){
+	// var interval = setInterval(function(){
+	// 		var a = $("#BAIDU_SSP__wrapper_u2783514_0");
+	// 		if(a !=null || a !='undefined'){
+	// 			a.remove();
+	// 			clearInterval(interval);
+	// 		}
+	// 	}, 200);
+}
+function list_Bottom(){
+
+}
+function article_article_Top(){
+	//index_Top();
+}
+function article_article_Page(){
+	document.writeln("<a href=\'http://www.15cdn.com/\'><img src=\'http://tpic2.eastlady.cn/info/201806/07/67f5112a-552b-50ee-e5a2-c90eb260ec25.jpg\' style=\'width:1050px;\'></a>");
+	// list_Page();
+}
+function article_article_Bottom(){
+
+}
+function article_article_side_Top(){
+
+}
+function article_article_side_Center(){
+
+}
+function article_article_side_Bottom(){
+
+}
+function global_fix(){
+
+}
+function global_right_bottom_fix(){
+	// document.write('<script type="text/javascript" src="http://media.jointreport-switch.com/?uid=5272"><\/script>');
+}
+function article_article_Page_top(){
+
+}
+//=========单独文章模板调用广告
+function only_article_top(){
+	
+}
+function only_article_page(){
+	
+}
+function only_article_pre(){
+	
+}
+function only_article_bottom(){
+	
+}
+function only_article_side_Top(){
+	
+}
+function only_article_side_Center(){
+	
+}
+function only_article_side_Bottom(){
+	
+}
+
+function baidu(){
+	// document.writeln("<script type=\'text/javascript\' src=\'http://static.mediav.com/js/mvf_news_feed.js\'></script>");
+	document.writeln("<script>");
+	document.writeln("	NEWS_FEED({");
+	document.writeln("	    \'w\': \'180\',");
+	document.writeln("	    \'h\': \'300\',");
+	document.writeln("	    \'inject\': \'define\',");
+	document.writeln("	    \'showid\': \'aibaxs\',");
+	document.writeln("	    \'placeholderId\': \'bbb\',");
+	document.writeln("	    \'define\': {");
+	document.writeln("	        \'displayImage\': 1,");
+	document.writeln("	        \'imagePosition\': \'top\',");
+	document.writeln("	        \'imageBorderRadius\': 0,");
+	document.writeln("	        \'imageWidth\': \'180\',");
+	document.writeln("	        \'imageHeight\': \'270\',");
+	document.writeln("	        \'imageFill\': \'clip\',");
+	document.writeln("	        \'displayTitle\': 1,");
+	document.writeln("	        \'titleFontSize\': \'14\',");
+	document.writeln("	        \'titleFontColor\': \'#000\',");
+	document.writeln("	        \'titleFontFamily\': \'Microsoft Yahei\',");
+	document.writeln("	        \'titleFontWeight\': \'200\',");
+	document.writeln("	        \'titlePaddingTop\': \'9\',");
+	document.writeln("	        \'titlePaddingRight\': \'7\',");
+	document.writeln("	        \'titlePaddingBottom\': \'0\',");
+	document.writeln("	        \'titlePaddingLeft\': \'7\',");
+	document.writeln("	        \'displayDesc\': 1,");
+	document.writeln("	        \'descFontSize\': \'12\',");
+	document.writeln("	        \'descFontColor\': \'#333\',");
+	document.writeln("	        \'descFontFamily\': \'Microsoft Yahei\',");
+	document.writeln("	        \'paddingTop\': \'0\',");
+	document.writeln("	        \'paddingRight\': 0,");
+	document.writeln("	        \'paddingBottom\': \'0\',");
+	document.writeln("	        \'paddingLeft\': \'0\',");
+	document.writeln("	        \'backgroundColor\': \'#fff\',");
+	document.writeln("	        \'hoverColor\': \'#1f92d1\'");
+	document.writeln("	    }");
+	document.writeln("	});");
+	document.writeln("</script>");
+}
