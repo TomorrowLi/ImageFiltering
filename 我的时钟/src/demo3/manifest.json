@@ -1,0 +1,42 @@
+{
+
+  //常驻后台,可选
+  "background":{
+    // 指定后台运行的脚本
+    // 右键菜单功能选项也可以在里面添加
+    "scripts":["js/jquery.min.js","js/background.js"]
+  },
+
+  "browser_action":{
+    //"default_popup": "popup.html",
+    "default_icon": "imgs/icon.png",
+    "default_title": "是否开启图片过滤",//鼠标悬浮时显示的提示名称
+    "icons": [ "imgs/icon.png" ]
+  },
+  "content_scripts":[{
+    "matches": [ "file://*/*", "http://*/*", "https://*/*" ],
+    "js":["js/jquery.min.js","js/holder.js","js/main.js"]
+  }],
+
+  "version": "0.5.0",
+  "manifest_version": 2,
+  "name": "页面过滤",
+  //为了让用户设定你的扩展功能，你可能需要提供一个选项页
+  "options_page": "html/options.html",
+  "permissions": [
+    //您不需要在扩展程序的清单文件中声明任何权限就能使用 chrome.tabs 的大多数方法和事件。
+    //然而，如果您需要访问 tabs.Tab 的 url、title 或 favIconUrl 属性，
+    //您必须在清单文件中声明 "tabs" 权限
+    "tabs",
+    //要使用网络请求 API
+    "webRequest",
+    //如果您需要以阻塞方式使用网络请求 API
+    "webRequestBlocking",
+    //允许访问的网站
+    "http://*/*", "https://*/*" ],
+
+  //更新地址
+  //"update_url": "https://clients2.google.com/service/update2/crx",
+  //指定本扩展在注入的目标页面上所需使用的资源的路径（相对于扩展的安装根目录
+  "web_accessible_resources": [ "imgs/bg/bg_blank_1px.png", "imgs/bg/bg_grey_1px.png", "imgs/bg/bg_1.png", "imgs/bg/bg_2.png", "imgs/bg/bg_3.png", "imgs/bg/bg_4.png" ]
+}
